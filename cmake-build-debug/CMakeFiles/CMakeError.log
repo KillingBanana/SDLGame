@@ -1,0 +1,19 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/Code/C++ Projects/SDLGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Programs/MinGW/bin/mingw32-make.exe" "cmTC_96e65/fast"
+D:/Programs/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_96e65.dir\build.make CMakeFiles/cmTC_96e65.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Code/C++ Projects/SDLGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96e65.dir/CheckIncludeFile.c.obj
+D:\Programs\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_96e65.dir\CheckIncludeFile.c.obj   -c "D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_96e65.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_96e65.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_96e65.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Code/C++ Projects/SDLGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_96e65/fast' failed
+mingw32-make.exe: *** [cmTC_96e65/fast] Error 2
+
+

@@ -1,0 +1,3 @@
+"D:\Programs\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\SDLGame.dir/objects.a
+D:\Programs\MinGW\bin\ar.exe cr CMakeFiles\SDLGame.dir/objects.a @CMakeFiles\SDLGame.dir\objects1.rsp
+D:\Programs\MinGW\bin\g++.exe  -std=c++11 -W -Wall -Wextra -pedantic -g   -Wl,--whole-archive CMakeFiles\SDLGame.dir/objects.a -Wl,--no-whole-archive  -o SDLGame.exe -Wl,--out-implib,libSDLGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SDLGame.dir\linklibs.rsp

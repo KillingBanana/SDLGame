@@ -1,0 +1,3 @@
+D:/Code/C++ Projects/SDLGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/C++ Projects/SDLGame/cmake-build-debug/CMakeFiles/SDLGame.dir
+D:/Code/C++ Projects/SDLGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir

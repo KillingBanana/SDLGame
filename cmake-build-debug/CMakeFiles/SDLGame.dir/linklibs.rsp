@@ -1,0 +1,1 @@
+-lmingw32 -mwindows D:/Programs/MinGW/lib/libSDL2main.a D:/Programs/MinGW/lib/libSDL2.dll.a D:/Programs/MinGW/bin/SDL2_image.dll -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

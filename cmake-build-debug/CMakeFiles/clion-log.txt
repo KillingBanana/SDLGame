@@ -1,0 +1,4 @@
+"D:\Programs\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Code\C++ Projects\SDLGame"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Code/C++ Projects/SDLGame/cmake-build-debug
