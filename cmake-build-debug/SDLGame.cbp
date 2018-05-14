@@ -102,19 +102,34 @@
 		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Collider.hpp">
 			<Option target="SDLGame"/>
 		</Unit>
+		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Component.cpp">
+			<Option target="SDLGame"/>
+		</Unit>
+		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Component.hpp">
+			<Option target="SDLGame"/>
+		</Unit>
 		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Components.hpp">
 			<Option target="SDLGame"/>
 		</Unit>
-		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/ECS.cpp">
+		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp">
 			<Option target="SDLGame"/>
 		</Unit>
-		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp">
+		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Entity.cpp">
+			<Option target="SDLGame"/>
+		</Unit>
+		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Entity.hpp">
 			<Option target="SDLGame"/>
 		</Unit>
 		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/KeyboardController.cpp">
 			<Option target="SDLGame"/>
 		</Unit>
 		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/KeyboardController.hpp">
+			<Option target="SDLGame"/>
+		</Unit>
+		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Manager.cpp">
+			<Option target="SDLGame"/>
+		</Unit>
+		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/Manager.hpp">
 			<Option target="SDLGame"/>
 		</Unit>
 		<Unit filename="D:/Code/C++ Projects/SDLGame/src/ECS/SpriteRenderer.cpp">

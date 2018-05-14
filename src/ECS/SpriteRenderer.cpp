@@ -1,4 +1,3 @@
-
 #include "SpriteRenderer.hpp"
 #include "../TextureManager.hpp"
 

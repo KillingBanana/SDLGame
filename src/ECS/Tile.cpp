@@ -3,8 +3,8 @@
 const int Tile::TILE_SIZE = 64;
 
 Tile::Tile(Entity *entity, int x, int y, int id) : Component(entity), id(id) {
-	transform = entity->AddComponent<Transform>(x * TILE_SIZE, y * TILE_SIZE);
-	spriteRenderer = entity->AddComponent<SpriteRenderer>(0, 0, 64, 64, GetPath(id));
+	entity->AddComponent<Transform>(x * TILE_SIZE + TILE_SIZE / 2, y * TILE_SIZE + TILE_SIZE / 2);
+	entity->AddComponent<SpriteRenderer>(0, 0, 64, 64, GetPath(id));
 }
 
 const char *Tile::GetPath(int id) {

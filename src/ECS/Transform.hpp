@@ -1,9 +1,8 @@
 #ifndef SDLGAME_POSITIONCOMPONENT_HPP
 #define SDLGAME_POSITIONCOMPONENT_HPP
 
-#include "ECS.hpp"
 #include "../Vector2.hpp"
-#include "../Vector2int.hpp"
+#include "Entity.hpp"
 
 class Transform : public Component {
 public:

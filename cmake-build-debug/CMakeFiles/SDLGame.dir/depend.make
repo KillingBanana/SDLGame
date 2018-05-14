@@ -51,7 +51,9 @@ CMakeFiles/SDLGame.dir/src/Clock.cpp.obj: D:/Programs/MinGW/include/SDL2/close_c
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/Collision.cpp
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/Collision.hpp
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/ECS/Collider.hpp
+CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/ECS/Component.hpp
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/ECS/Entity.hpp
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/ECS/Transform.hpp
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/Vector2.hpp
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/Vector2int.hpp
@@ -101,9 +103,12 @@ CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: D:/Programs/MinGW/include/SDL2/beg
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: D:/Programs/MinGW/include/SDL2/close_code.h
 
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/Collider.hpp
+CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/Component.hpp
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/Components.hpp
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/Entity.hpp
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/KeyboardController.hpp
+CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/Manager.hpp
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/SpriteRenderer.hpp
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/Tile.hpp
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: ../src/ECS/Transform.hpp
@@ -158,7 +163,14 @@ CMakeFiles/SDLGame.dir/src/Game.cpp.obj: D:/Programs/MinGW/include/SDL2/begin_co
 CMakeFiles/SDLGame.dir/src/Game.cpp.obj: D:/Programs/MinGW/include/SDL2/close_code.h
 
 CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/Collider.hpp
+CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/Component.hpp
+CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/Components.hpp
 CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/Entity.hpp
+CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/KeyboardController.hpp
+CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/Manager.hpp
+CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/SpriteRenderer.hpp
+CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/Tile.hpp
 CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/ECS/Transform.hpp
 CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/Game.hpp
 CMakeFiles/SDLGame.dir/src/Map.cpp.obj: ../src/Map.cpp
@@ -211,7 +223,14 @@ CMakeFiles/SDLGame.dir/src/Map.cpp.obj: D:/Programs/MinGW/include/SDL2/begin_cod
 CMakeFiles/SDLGame.dir/src/Map.cpp.obj: D:/Programs/MinGW/include/SDL2/close_code.h
 
 CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/Collider.hpp
+CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/Component.hpp
+CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/Components.hpp
 CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/Entity.hpp
+CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/KeyboardController.hpp
+CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/Manager.hpp
+CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/SpriteRenderer.hpp
+CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/Tile.hpp
 CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/ECS/Transform.hpp
 CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/Game.hpp
 CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj: ../src/Map.hpp
@@ -274,7 +293,14 @@ CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj: ../src/Vector2int.hpp
 
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Collider.cpp
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Collider.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Component.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Components.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Entity.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/KeyboardController.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Manager.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/SpriteRenderer.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Tile.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/ECS/Transform.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/Game.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: ../src/Map.hpp
@@ -325,13 +351,25 @@ CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: D:/Programs/MinGW/include/SDL2/
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: D:/Programs/MinGW/include/SDL2/begin_code.h
 CMakeFiles/SDLGame.dir/src/ecs/Collider.cpp.obj: D:/Programs/MinGW/include/SDL2/close_code.h
 
-CMakeFiles/SDLGame.dir/src/ecs/ECS.cpp.obj: ../src/ECS/ECS.cpp
-CMakeFiles/SDLGame.dir/src/ecs/ECS.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Component.cpp.obj: ../src/ECS/Component.cpp
+CMakeFiles/SDLGame.dir/src/ecs/Component.cpp.obj: ../src/ECS/Component.hpp
+
+CMakeFiles/SDLGame.dir/src/ecs/Entity.cpp.obj: ../src/ECS/Component.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Entity.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Entity.cpp.obj: ../src/ECS/Entity.cpp
+CMakeFiles/SDLGame.dir/src/ecs/Entity.cpp.obj: ../src/ECS/Entity.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Entity.cpp.obj: ../src/ECS/Manager.hpp
 
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/Collider.hpp
+CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/Component.hpp
+CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/Components.hpp
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/Entity.hpp
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/KeyboardController.cpp
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/KeyboardController.hpp
+CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/Manager.hpp
+CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/SpriteRenderer.hpp
+CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/Tile.hpp
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/ECS/Transform.hpp
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/Game.hpp
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: ../src/Map.hpp
@@ -382,7 +420,15 @@ CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: D:/Programs/MinGW/inc
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: D:/Programs/MinGW/include/SDL2/begin_code.h
 CMakeFiles/SDLGame.dir/src/ecs/KeyboardController.cpp.obj: D:/Programs/MinGW/include/SDL2/close_code.h
 
+CMakeFiles/SDLGame.dir/src/ecs/Manager.cpp.obj: ../src/ECS/Component.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Manager.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Manager.cpp.obj: ../src/ECS/Entity.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Manager.cpp.obj: ../src/ECS/Manager.cpp
+CMakeFiles/SDLGame.dir/src/ecs/Manager.cpp.obj: ../src/ECS/Manager.hpp
+
+CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: ../src/ECS/Component.hpp
 CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: ../src/ECS/Entity.hpp
 CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: ../src/ECS/SpriteRenderer.cpp
 CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: ../src/ECS/SpriteRenderer.hpp
 CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: ../src/ECS/Transform.hpp
@@ -434,7 +480,9 @@ CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: D:/Programs/MinGW/include
 CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: D:/Programs/MinGW/include/SDL2/begin_code.h
 CMakeFiles/SDLGame.dir/src/ecs/SpriteRenderer.cpp.obj: D:/Programs/MinGW/include/SDL2/close_code.h
 
+CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: ../src/ECS/Component.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: ../src/ECS/Entity.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: ../src/ECS/SpriteRenderer.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: ../src/ECS/Tile.cpp
 CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: ../src/ECS/Tile.hpp
@@ -487,7 +535,9 @@ CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: D:/Programs/MinGW/include/SDL2/begi
 CMakeFiles/SDLGame.dir/src/ecs/Tile.cpp.obj: D:/Programs/MinGW/include/SDL2/close_code.h
 
 CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: ../src/Clock.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: ../src/ECS/Component.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: ../src/ECS/Entity.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: ../src/ECS/Transform.cpp
 CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: ../src/ECS/Transform.hpp
 CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: ../src/Vector2.hpp
@@ -539,7 +589,14 @@ CMakeFiles/SDLGame.dir/src/ecs/Transform.cpp.obj: D:/Programs/MinGW/include/SDL2
 
 CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/Clock.hpp
 CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/Collider.hpp
+CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/Component.hpp
+CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/Components.hpp
 CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/ECS.hpp
+CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/Entity.hpp
+CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/KeyboardController.hpp
+CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/Manager.hpp
+CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/SpriteRenderer.hpp
+CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/Tile.hpp
 CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/ECS/Transform.hpp
 CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/Game.hpp
 CMakeFiles/SDLGame.dir/src/main.cpp.obj: ../src/Map.hpp

@@ -15,9 +15,6 @@ public:
 	static const char *GetPath(int id);
 
 	int id;
-private:
-	Transform *transform;
-	SpriteRenderer *spriteRenderer;
 };
 
 #endif //SDLGAME_TILE_HPP

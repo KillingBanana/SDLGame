@@ -156,35 +156,10 @@ CMakeFiles/SDLGame.dir/src/Map.cpp.obj.provides: CMakeFiles/SDLGame.dir/src/Map.
 CMakeFiles/SDLGame.dir/src/Map.cpp.obj.provides.build: CMakeFiles/SDLGame.dir/src/Map.cpp.obj
 
 
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj: ../src/ECS/ECS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj"
-	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\ECS.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\ECS.cpp"
-
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.i"
-	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C++ Projects\SDLGame\src\ECS\ECS.cpp" > CMakeFiles\SDLGame.dir\src\ECS\ECS.cpp.i
-
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.s"
-	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C++ Projects\SDLGame\src\ECS\ECS.cpp" -o CMakeFiles\SDLGame.dir\src\ECS\ECS.cpp.s
-
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.requires:
-
-.PHONY : CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.requires
-
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.provides: CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.provides.build
-.PHONY : CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.provides
-
-CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.provides.build: CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj
-
-
 CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj: ../src/ECS/Transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\Transform.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\Transform.cpp"
 
 CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.i: cmake_force
@@ -209,7 +184,7 @@ CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj.provides.build: CMakeFiles/SDLG
 CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj: ../src/ECS/SpriteRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\SpriteRenderer.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\SpriteRenderer.cpp"
 
 CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.i: cmake_force
@@ -234,7 +209,7 @@ CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj.provides.build: CMakeFiles
 CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj: ../src/Vector2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\Vector2.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\Vector2.cpp"
 
 CMakeFiles/SDLGame.dir/src/Vector2.cpp.i: cmake_force
@@ -259,7 +234,7 @@ CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj.provides.build: CMakeFiles/SDLGame.di
 CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.obj: ../src/ECS/KeyboardController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\KeyboardController.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\KeyboardController.cpp"
 
 CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.i: cmake_force
@@ -284,7 +259,7 @@ CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.obj.provides.build: CMakeF
 CMakeFiles/SDLGame.dir/src/Clock.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/Clock.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/Clock.cpp.obj: ../src/Clock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SDLGame.dir/src/Clock.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SDLGame.dir/src/Clock.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\Clock.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\Clock.cpp"
 
 CMakeFiles/SDLGame.dir/src/Clock.cpp.i: cmake_force
@@ -309,7 +284,7 @@ CMakeFiles/SDLGame.dir/src/Clock.cpp.obj.provides.build: CMakeFiles/SDLGame.dir/
 CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj: ../src/ECS/Collider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\Collider.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\Collider.cpp"
 
 CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.i: cmake_force
@@ -334,7 +309,7 @@ CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj.provides.build: CMakeFiles/SDLGa
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/Collision.cpp.obj: ../src/Collision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SDLGame.dir/src/Collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SDLGame.dir/src/Collision.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\Collision.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\Collision.cpp"
 
 CMakeFiles/SDLGame.dir/src/Collision.cpp.i: cmake_force
@@ -359,7 +334,7 @@ CMakeFiles/SDLGame.dir/src/Collision.cpp.obj.provides.build: CMakeFiles/SDLGame.
 CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj: ../src/ECS/Tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\Tile.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\Tile.cpp"
 
 CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.i: cmake_force
@@ -384,7 +359,7 @@ CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj.provides.build: CMakeFiles/SDLGame.d
 CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
 CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
 CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj: ../src/Vector2int.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj"
 	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\Vector2int.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\Vector2int.cpp"
 
 CMakeFiles/SDLGame.dir/src/Vector2int.cpp.i: cmake_force
@@ -406,13 +381,87 @@ CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj.provides: CMakeFiles/SDLGame.dir/s
 CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj.provides.build: CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj
 
 
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj: ../src/ECS/Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj"
+	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\Entity.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\Entity.cpp"
+
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.i"
+	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C++ Projects\SDLGame\src\ECS\Entity.cpp" > CMakeFiles\SDLGame.dir\src\ECS\Entity.cpp.i
+
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.s"
+	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C++ Projects\SDLGame\src\ECS\Entity.cpp" -o CMakeFiles\SDLGame.dir\src\ECS\Entity.cpp.s
+
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.requires
+
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.provides: CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.provides.build
+.PHONY : CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.provides
+
+CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.provides.build: CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj
+
+
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj: ../src/ECS/Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj"
+	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\Component.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\Component.cpp"
+
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.i"
+	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C++ Projects\SDLGame\src\ECS\Component.cpp" > CMakeFiles\SDLGame.dir\src\ECS\Component.cpp.i
+
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.s"
+	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C++ Projects\SDLGame\src\ECS\Component.cpp" -o CMakeFiles\SDLGame.dir\src\ECS\Component.cpp.s
+
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.requires
+
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.provides: CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.provides.build
+.PHONY : CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.provides
+
+CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.provides.build: CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj
+
+
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj: CMakeFiles/SDLGame.dir/flags.make
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj: CMakeFiles/SDLGame.dir/includes_CXX.rsp
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj: ../src/ECS/Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj"
+	D:\Programs\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDLGame.dir\src\ECS\Manager.cpp.obj -c "D:\Code\C++ Projects\SDLGame\src\ECS\Manager.cpp"
+
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.i"
+	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Code\C++ Projects\SDLGame\src\ECS\Manager.cpp" > CMakeFiles\SDLGame.dir\src\ECS\Manager.cpp.i
+
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.s"
+	D:\Programs\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Code\C++ Projects\SDLGame\src\ECS\Manager.cpp" -o CMakeFiles\SDLGame.dir\src\ECS\Manager.cpp.s
+
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.requires
+
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.provides: CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.provides.build
+.PHONY : CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.provides
+
+CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.provides.build: CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj
+
+
 # Object files for target SDLGame
 SDLGame_OBJECTS = \
 "CMakeFiles/SDLGame.dir/src/main.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/Game.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/Map.cpp.obj" \
-"CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj" \
@@ -421,7 +470,10 @@ SDLGame_OBJECTS = \
 "CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/Collision.cpp.obj" \
 "CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj" \
-"CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj"
+"CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj" \
+"CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj" \
+"CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj" \
+"CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj"
 
 # External object files for target SDLGame
 SDLGame_EXTERNAL_OBJECTS =
@@ -430,7 +482,6 @@ SDLGame.exe: CMakeFiles/SDLGame.dir/src/main.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/Game.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/Map.cpp.obj
-SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj
@@ -440,6 +491,9 @@ SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/Collision.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj
+SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj
+SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj
+SDLGame.exe: CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj
 SDLGame.exe: CMakeFiles/SDLGame.dir/build.make
 SDLGame.exe: D:/Programs/MinGW/lib/libSDL2main.a
 SDLGame.exe: D:/Programs/MinGW/lib/libSDL2.dll.a
@@ -447,7 +501,7 @@ SDLGame.exe: D:/Programs/MinGW/bin/SDL2_image.dll
 SDLGame.exe: CMakeFiles/SDLGame.dir/linklibs.rsp
 SDLGame.exe: CMakeFiles/SDLGame.dir/objects1.rsp
 SDLGame.exe: CMakeFiles/SDLGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable SDLGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Code\C++ Projects\SDLGame\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable SDLGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SDLGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -459,7 +513,6 @@ CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/main.cpp.obj.require
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/Game.cpp.obj.requires
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/TextureManager.cpp.obj.requires
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/Map.cpp.obj.requires
-CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj.requires
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/Transform.cpp.obj.requires
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/SpriteRenderer.cpp.obj.requires
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/Vector2.cpp.obj.requires
@@ -469,6 +522,9 @@ CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.obj
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/Collision.cpp.obj.requires
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/Tile.cpp.obj.requires
 CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/Vector2int.cpp.obj.requires
+CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj.requires
+CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj.requires
+CMakeFiles/SDLGame.dir/requires: CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj.requires
 
 .PHONY : CMakeFiles/SDLGame.dir/requires
 

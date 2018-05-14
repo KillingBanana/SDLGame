@@ -1,6 +1,4 @@
 #include "Game.hpp"
-#include "ECS/Components.hpp"
-#include <sstream>
 
 bool Game::debug = false;
 
@@ -12,7 +10,7 @@ std::vector<Collider *> Game::colliders;
 
 Manager Game::manager;
 
-Game::Game() : player(manager.AddEntity("Player")) {}
+Game::Game() : player(manager.AddEntity("Player")) { ; }
 
 Game::~Game() = default;
 
@@ -62,6 +60,7 @@ void Game::Init(const char *title, int x, int y, int width, int height, bool ful
 	player.AddComponent<KeyboardController>();
 	player.AddComponent<Collider>(0, 0, 20, 1, "Feet");
 	player.AddComponent<Collider>(0, -30, 20, 60, "Body");
+	player.AddGroups({ColliderGroup, CharacterGroup, PlayerGroup});
 
 	isRunning = true;
 
@@ -81,22 +80,21 @@ void Game::HandleEvents() {
 }
 
 void Game::Update() {
-	manager.Refresh();
 	manager.Update();
 }
 
 void Game::Render() {
 	SDL_RenderClear(Game::renderer);
 	manager.Draw();
-	player.Draw();
 
 	if (debug) {
-		for (auto collider:colliders) SDL_RenderDrawRect(renderer, &collider->rect);
+		for (Collider *collider:colliders) SDL_RenderDrawRect(renderer, &collider->rect);
 
 		int x = player.GetComponent<Transform>()->X(), y = player.GetComponent<Transform>()->Y();
 		SDL_RenderDrawLine(renderer, x, 0, x, 640);
 		SDL_RenderDrawLine(renderer, 0, y, 640, y);
 	}
+
 	SDL_RenderPresent(Game::renderer);
 }
 
@@ -108,6 +106,7 @@ void Game::Clean() {
 }
 
 void Game::AddTile(int x, int y, int id) {
-	auto &tile = manager.AddEntity("Tile");
+	Entity &tile = manager.AddEntity("Tile");
 	tile.AddComponent<Tile>(x, y, id);
+	tile.AddGroups({TileGroup});
 }

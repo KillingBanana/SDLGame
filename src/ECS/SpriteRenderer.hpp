@@ -1,14 +1,12 @@
 #ifndef SDLGAME_SPRITECOMPONENT_HPP
 #define SDLGAME_SPRITECOMPONENT_HPP
 
-#include "ECS.hpp"
-#include <SDL.h>
-#include <windef.h>
 #include "Transform.hpp"
+#include <SDL.h>
 
 class SpriteRenderer : public Component {
 public:
-	Vector2int size, offset;
+	Vector2int offset, size;
 	SpriteRenderer(Entity *entity, int x, int y, int width, int height, const char *sprite);
 	~SpriteRenderer() override;
 

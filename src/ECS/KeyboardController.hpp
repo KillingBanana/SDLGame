@@ -13,7 +13,7 @@ public:
 
 	void Update() override;
 private:
-	float speed = 64;
+	float speed = 100;
 };
 
 #endif //SDLGAME_KEYBOARDCONTROLLER_HPP

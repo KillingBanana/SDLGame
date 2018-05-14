@@ -40,6 +40,12 @@ D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp
 Transform.hpp
 D:/Code/C++ Projects/SDLGame/src/ECS/Transform.hpp
 
+D:/Code/C++ Projects/SDLGame/src/ECS/Component.cpp
+Component.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Component.hpp
+
+D:/Code/C++ Projects/SDLGame/src/ECS/Component.hpp
+
 D:/Code/C++ Projects/SDLGame/src/ECS/Components.hpp
 Transform.hpp
 D:/Code/C++ Projects/SDLGame/src/ECS/Transform.hpp
@@ -51,10 +57,6 @@ Collider.hpp
 D:/Code/C++ Projects/SDLGame/src/ECS/Collider.hpp
 Tile.hpp
 D:/Code/C++ Projects/SDLGame/src/ECS/Tile.hpp
-
-D:/Code/C++ Projects/SDLGame/src/ECS/ECS.cpp
-ECS.hpp
-D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp
 
 D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp
 iostream
@@ -69,6 +71,18 @@ bitset
 -
 array
 -
+Component.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Component.hpp
+
+D:/Code/C++ Projects/SDLGame/src/ECS/Entity.cpp
+Entity.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Entity.hpp
+Manager.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Manager.hpp
+
+D:/Code/C++ Projects/SDLGame/src/ECS/Entity.hpp
+ECS.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp
 
 D:/Code/C++ Projects/SDLGame/src/ECS/KeyboardController.cpp
 KeyboardController.hpp
@@ -80,6 +94,18 @@ D:/Code/C++ Projects/SDLGame/src/ECS/KeyboardController.hpp
 Transform.hpp
 D:/Code/C++ Projects/SDLGame/src/ECS/Transform.hpp
 
+D:/Code/C++ Projects/SDLGame/src/ECS/Manager.cpp
+Manager.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Manager.hpp
+
+D:/Code/C++ Projects/SDLGame/src/ECS/Manager.hpp
+memory
+-
+vector
+-
+Entity.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Entity.hpp
+
 D:/Code/C++ Projects/SDLGame/src/ECS/SpriteRenderer.cpp
 SpriteRenderer.hpp
 D:/Code/C++ Projects/SDLGame/src/ECS/SpriteRenderer.hpp
@@ -87,14 +113,10 @@ D:/Code/C++ Projects/SDLGame/src/ECS/SpriteRenderer.hpp
 D:/Code/C++ Projects/SDLGame/src/TextureManager.hpp
 
 D:/Code/C++ Projects/SDLGame/src/ECS/SpriteRenderer.hpp
-ECS.hpp
-D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp
-SDL.h
--
-windef.h
--
 Transform.hpp
 D:/Code/C++ Projects/SDLGame/src/ECS/Transform.hpp
+SDL.h
+-
 
 D:/Code/C++ Projects/SDLGame/src/ECS/Tile.cpp
 Tile.hpp
@@ -117,32 +139,26 @@ D:/Code/C++ Projects/SDLGame/src/ECS/Transform.hpp
 D:/Code/C++ Projects/SDLGame/src/Clock.hpp
 
 D:/Code/C++ Projects/SDLGame/src/ECS/Transform.hpp
-ECS.hpp
-D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp
 ../Vector2.hpp
 D:/Code/C++ Projects/SDLGame/src/Vector2.hpp
-../Vector2int.hpp
-D:/Code/C++ Projects/SDLGame/src/Vector2int.hpp
+Entity.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Entity.hpp
 
 D:/Code/C++ Projects/SDLGame/src/Game.cpp
 Game.hpp
 D:/Code/C++ Projects/SDLGame/src/Game.hpp
-ECS/Components.hpp
-D:/Code/C++ Projects/SDLGame/src/ECS/Components.hpp
-sstream
--
 
 D:/Code/C++ Projects/SDLGame/src/Game.hpp
 iostream
 -
 SDL.h
 -
-ECS/ECS.hpp
-D:/Code/C++ Projects/SDLGame/src/ECS/ECS.hpp
 Map.hpp
 D:/Code/C++ Projects/SDLGame/src/Map.hpp
-ECS/Collider.hpp
-D:/Code/C++ Projects/SDLGame/src/ECS/Collider.hpp
+ECS/Manager.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Manager.hpp
+ECS/Components.hpp
+D:/Code/C++ Projects/SDLGame/src/ECS/Components.hpp
 
 D:/Code/C++ Projects/SDLGame/src/Map.cpp
 Map.hpp

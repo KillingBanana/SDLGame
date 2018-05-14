@@ -9,7 +9,7 @@ public:
 
 	void Tick();
 
-	static double DeltaTime() { return deltaTime; }
+	static double DeltaTime();
 
 private:
 	Uint64 now, last;

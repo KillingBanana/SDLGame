@@ -7,7 +7,7 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -W -Wall -Wextra -pedantic")
 
-set(SRC_FILES src/main.cpp src/Game.cpp src/Game.hpp src/TextureManager.hpp src/TextureManager.cpp src/Map.cpp src/Map.hpp src/ECS/ECS.hpp src/ECS/Components.hpp src/ECS/ECS.cpp src/ECS/Transform.cpp src/ECS/Transform.hpp src/ECS/SpriteRenderer.cpp src/ECS/SpriteRenderer.hpp src/Vector2.cpp src/Vector2.hpp src/ECS/KeyboardController.cpp src/ECS/KeyboardController.hpp src/Clock.cpp src/Clock.hpp src/ECS/Collider.cpp src/ECS/Collider.hpp src/Collision.cpp src/Collision.hpp src/ECS/Tile.cpp src/ECS/Tile.hpp src/Vector2int.cpp src/Vector2int.hpp)
+set(SRC_FILES src/main.cpp src/Game.cpp src/Game.hpp src/TextureManager.hpp src/TextureManager.cpp src/Map.cpp src/Map.hpp src/ECS/ECS.hpp src/ECS/Components.hpp src/ECS/Transform.cpp src/ECS/Transform.hpp src/ECS/SpriteRenderer.cpp src/ECS/SpriteRenderer.hpp src/Vector2.cpp src/Vector2.hpp src/ECS/KeyboardController.cpp src/ECS/KeyboardController.hpp src/Clock.cpp src/Clock.hpp src/ECS/Collider.cpp src/ECS/Collider.hpp src/Collision.cpp src/Collision.hpp src/ECS/Tile.cpp src/ECS/Tile.hpp src/Vector2int.cpp src/Vector2int.hpp src/ECS/Entity.cpp src/ECS/Entity.hpp src/ECS/Component.cpp src/ECS/Component.hpp src/ECS/Manager.cpp src/ECS/Manager.hpp)
 
 add_executable(SDLGame ${SRC_FILES})
 

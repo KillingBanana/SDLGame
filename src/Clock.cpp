@@ -10,3 +10,5 @@ void Clock::Tick() {
 
 	deltaTime = (double) (now - last) / SDL_GetPerformanceFrequency();
 }
+
+double Clock::DeltaTime() { return deltaTime; }

@@ -203,32 +203,59 @@ src/ECS/Collider.cpp.s:
 	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Collider.cpp.s
 .PHONY : src/ECS/Collider.cpp.s
 
-src/ECS/ECS.obj: src/ECS/ECS.cpp.obj
+src/ECS/Component.obj: src/ECS/Component.cpp.obj
 
-.PHONY : src/ECS/ECS.obj
+.PHONY : src/ECS/Component.obj
 
 # target to build an object file
-src/ECS/ECS.cpp.obj:
-	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.obj
-.PHONY : src/ECS/ECS.cpp.obj
+src/ECS/Component.cpp.obj:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.obj
+.PHONY : src/ECS/Component.cpp.obj
 
-src/ECS/ECS.i: src/ECS/ECS.cpp.i
+src/ECS/Component.i: src/ECS/Component.cpp.i
 
-.PHONY : src/ECS/ECS.i
+.PHONY : src/ECS/Component.i
 
 # target to preprocess a source file
-src/ECS/ECS.cpp.i:
-	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.i
-.PHONY : src/ECS/ECS.cpp.i
+src/ECS/Component.cpp.i:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.i
+.PHONY : src/ECS/Component.cpp.i
 
-src/ECS/ECS.s: src/ECS/ECS.cpp.s
+src/ECS/Component.s: src/ECS/Component.cpp.s
 
-.PHONY : src/ECS/ECS.s
+.PHONY : src/ECS/Component.s
 
 # target to generate assembly for a file
-src/ECS/ECS.cpp.s:
-	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/ECS.cpp.s
-.PHONY : src/ECS/ECS.cpp.s
+src/ECS/Component.cpp.s:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Component.cpp.s
+.PHONY : src/ECS/Component.cpp.s
+
+src/ECS/Entity.obj: src/ECS/Entity.cpp.obj
+
+.PHONY : src/ECS/Entity.obj
+
+# target to build an object file
+src/ECS/Entity.cpp.obj:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.obj
+.PHONY : src/ECS/Entity.cpp.obj
+
+src/ECS/Entity.i: src/ECS/Entity.cpp.i
+
+.PHONY : src/ECS/Entity.i
+
+# target to preprocess a source file
+src/ECS/Entity.cpp.i:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.i
+.PHONY : src/ECS/Entity.cpp.i
+
+src/ECS/Entity.s: src/ECS/Entity.cpp.s
+
+.PHONY : src/ECS/Entity.s
+
+# target to generate assembly for a file
+src/ECS/Entity.cpp.s:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Entity.cpp.s
+.PHONY : src/ECS/Entity.cpp.s
 
 src/ECS/KeyboardController.obj: src/ECS/KeyboardController.cpp.obj
 
@@ -256,6 +283,33 @@ src/ECS/KeyboardController.s: src/ECS/KeyboardController.cpp.s
 src/ECS/KeyboardController.cpp.s:
 	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/KeyboardController.cpp.s
 .PHONY : src/ECS/KeyboardController.cpp.s
+
+src/ECS/Manager.obj: src/ECS/Manager.cpp.obj
+
+.PHONY : src/ECS/Manager.obj
+
+# target to build an object file
+src/ECS/Manager.cpp.obj:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.obj
+.PHONY : src/ECS/Manager.cpp.obj
+
+src/ECS/Manager.i: src/ECS/Manager.cpp.i
+
+.PHONY : src/ECS/Manager.i
+
+# target to preprocess a source file
+src/ECS/Manager.cpp.i:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.i
+.PHONY : src/ECS/Manager.cpp.i
+
+src/ECS/Manager.s: src/ECS/Manager.cpp.s
+
+.PHONY : src/ECS/Manager.s
+
+# target to generate assembly for a file
+src/ECS/Manager.cpp.s:
+	$(MAKE) -f CMakeFiles\SDLGame.dir\build.make CMakeFiles/SDLGame.dir/src/ECS/Manager.cpp.s
+.PHONY : src/ECS/Manager.cpp.s
 
 src/ECS/SpriteRenderer.obj: src/ECS/SpriteRenderer.cpp.obj
 
@@ -518,12 +572,18 @@ help:
 	@echo ... src/ECS/Collider.obj
 	@echo ... src/ECS/Collider.i
 	@echo ... src/ECS/Collider.s
-	@echo ... src/ECS/ECS.obj
-	@echo ... src/ECS/ECS.i
-	@echo ... src/ECS/ECS.s
+	@echo ... src/ECS/Component.obj
+	@echo ... src/ECS/Component.i
+	@echo ... src/ECS/Component.s
+	@echo ... src/ECS/Entity.obj
+	@echo ... src/ECS/Entity.i
+	@echo ... src/ECS/Entity.s
 	@echo ... src/ECS/KeyboardController.obj
 	@echo ... src/ECS/KeyboardController.i
 	@echo ... src/ECS/KeyboardController.s
+	@echo ... src/ECS/Manager.obj
+	@echo ... src/ECS/Manager.i
+	@echo ... src/ECS/Manager.s
 	@echo ... src/ECS/SpriteRenderer.obj
 	@echo ... src/ECS/SpriteRenderer.i
 	@echo ... src/ECS/SpriteRenderer.s

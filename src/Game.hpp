@@ -3,9 +3,9 @@
 
 #include <iostream>
 #include <SDL.h>
-#include "ECS/ECS.hpp"
 #include "Map.hpp"
-#include "ECS/Collider.hpp"
+#include "ECS/Manager.hpp"
+#include "ECS/Components.hpp"
 
 class Game {
 public:
